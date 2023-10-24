@@ -3,8 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>audio play list</title>
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:rgb(248, 230, 140);
+        }
+
+        #playlist .active a:before {
+    content: "\25B6";
+    color: #fff; /* Color del icono Play */
+    font-style: normal;
+    padding-right: 8px;
+        }
+      </style>
+
 </head>
 
 <body>
