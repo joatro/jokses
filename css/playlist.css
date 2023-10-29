@@ -23,7 +23,7 @@
     #playlist {
     margin: 0 auto 10px auto;
     display: block;
-    background: #4e4d0181; /* Fondo del segundo contenedor */
+    background: #23a6b3; /* Fondo del segundo contenedor */
     border-top: 1px solid #fff;
     text-align: left;
     font-size: 14px; /* Estilos de fuente */
@@ -38,27 +38,27 @@
     }
     #playlist li a {
     color: #ffffff; /* Color de las canciones */
-    background: rgb(22, 1, 160); /* Fondo de las canciones */
+    background: rgb(0, 0, 0); /* Fondo de las canciones */
     padding: 7px 2px;
     display: block;
     padding-left: 10px;
     text-decoration: none;
     }
     #playlist li a:hover{
-    background: #4e4d0181; /* Color de fondo al pasar el cursor */
+    background: #23a6b3; /* Color de fondo al pasar el cursor */
     text-decoration: none;
     }
     #playlist .active a {
-    color: #eeea0081; /* Color de la canción activa */
+    color: #fedd087f; /* Color de la canción activa */
     font-style: Georgia;
     text-decoration: none;
     }
     #playlist .active a:before {
     content: "\25B6";
-    color: #a5ff8a; /* Color del icono Play */
+    color: #ffffff; /* Color del icono Play */
     font-style: normal;
     padding-right: 8px;
     }
     #playlist .active a:hover {
-    color: #000; /* Color de la canción activa al pasar el cursor */
+    color: #000000; /* Color de la canción activa al pasar el cursor */
     }
